@@ -1,0 +1,74 @@
+{
+  "body": {
+    "items": [
+      {
+        "address": {
+          "address_line_1": "Kestrel Way",
+          "country": "United Kingdom",
+          "locality": "Welwyn Garden City",
+          "postal_code": "AL7 1GA",
+          "premises": "Tesco House, Shire Park"
+        },
+        "address_snippet": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, United Kingdom, AL7 1GA",
+        "company_number": "00445790",
+        "company_status": "active",
+        "company_type": "plc",
+        "date_of_creation": "1947-11-27",
+        "description": "00445790 - Incorporated on 27 November 1947",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "kind": "searchresults#company",
+        "links": {
+          "self": "/company/00445790"
+        },
+        "matches": {
+          "snippet": []
+        },
+        "snippet": "TESCO STORES (HOLDINGS) PUBLIC LIMITED COMPANY",
+        "title": "TESCO PLC"
+      },
+      {
+        "address": {
+          "address_line_1": "Dawley Brook Road",
+          "country": "England",
+          "locality": "Kingswinford",
+          "postal_code": "DY6 7BD",
+          "premises": "2"
+        },
+        "address_snippet": "2 Dawley Brook Road, Kingswinford, England, DY6 7BD",
+        "company_number": "09384423",
+        "company_status": "active",
+        "company_type": "ltd",
+        "date_of_creation": "2015-01-12",
+        "description": "09384423 - Incorporated on 12 January 2015",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "kind": "searchresults#company",
+        "links": {
+          "self": "/company/09384423"
+        },
+        "matches": {
+          "snippet": []
+        },
+        "snippet": "TESCO TYRES LTD",
+        "title": "KFORD TYRES (GORNAL) LTD"
+      }
+    ],
+    "items_per_page": 2,
+    "kind": "search#companies",
+    "page_number": 1,
+    "start_index": 0,
+    "total_results": 356
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit": "1200",
+    "x-ratelimit-remain": "1198",
+    "x-ratelimit-reset": "1792082019",
+    "x-ratelimit-window": "5m"
+  },
+  "status": 200,
+  "url": "https://api.company-information.service.gov.uk/search/companies?q=tesco&items_per_page=2&start_index=0"
+}

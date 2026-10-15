@@ -1,0 +1,20 @@
+{
+  "body": {
+    "credits_remaining": 0,
+    "detail": "Company 99999999 not found",
+    "docs_url": "https://api.registrum.co.uk/docs",
+    "request_id": "191fb984-0683-483c-bd43-480e1752f1cb",
+    "status": "error"
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-daily-limit": "400",
+    "x-ratelimit-daily-remaining": "0",
+    "x-ratelimit-daily-reset": "1792108800",
+    "x-ratelimit-limit": "4000",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1793491200"
+  },
+  "status": 404,
+  "url": "https://api.registrum.co.uk/v1/company/99999999"
+}

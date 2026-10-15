@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "companies-house"
+dynamic = ["version"]
+description = "Companies House API client for Python that handles the rate limit properly, with an optional Registrum upgrade for financials and ownership chains."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Registrum Limited" }]
+keywords = ["companies house", "uk companies", "api client", "rate limit", "psc", "officers", "filing history"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+dependencies = ["httpx>=0.25"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/RegistrumUK/companies-house-python"
+Issues = "https://github.com/RegistrumUK/companies-house-python/issues"
+Registrum = "https://registrum.co.uk/?utm_source=pypi"
+
+[tool.hatch.version]
+path = "src/companies_house/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/companies_house"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

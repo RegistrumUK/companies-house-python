@@ -1,0 +1,13 @@
+{
+  "body": {
+    "detail": "Invalid API key.",
+    "docs_url": "https://api.registrum.co.uk/docs",
+    "feedback_url": "https://api.registrum.co.uk/docs#/Feedback/submit_feedback_v1_feedback_post",
+    "status": "error"
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "status": 401,
+  "url": "https://api.registrum.co.uk/v1/company/00445790"
+}

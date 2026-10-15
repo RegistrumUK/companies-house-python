@@ -1,0 +1,16 @@
+{
+  "body": {
+    "message": "404 NOT_FOUND \"Resource not found for company profile 99999999\"",
+    "request_id": "nkooOPHReXWcjbsnxdpwGle1df2F",
+    "timestamp": "2026-10-15T16:28:39.311510692"
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit": "1200",
+    "x-ratelimit-remain": "1192",
+    "x-ratelimit-reset": "1792082019",
+    "x-ratelimit-window": "5m"
+  },
+  "status": 404,
+  "url": "https://api.company-information.service.gov.uk/company/99999999"
+}

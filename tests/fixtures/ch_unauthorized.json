@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": "Invalid Authorization",
+    "type": "ch:service"
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "status": 401,
+  "url": "https://api.company-information.service.gov.uk/company/00445790"
+}

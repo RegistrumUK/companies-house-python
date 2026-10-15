@@ -1,0 +1,38 @@
+{
+  "body": {
+    "cache_age_seconds": null,
+    "cached": false,
+    "credits_remaining": 0,
+    "credits_used": 1,
+    "data": {
+      "accounts_category": "group",
+      "accounts_next_due": "2027-08-26",
+      "available": false,
+      "balance_sheet": null,
+      "cache_schema_version": 3,
+      "company_name": "TESCO PLC",
+      "company_number": "00445790",
+      "company_status": "active",
+      "data_quality": null,
+      "last_accounts_date": "2026-02-28",
+      "other": null,
+      "profit_and_loss": null,
+      "summary_md": null,
+      "unavailable_reason": "image_pdf"
+    },
+    "data_source": "live",
+    "fetched_at": "2026-10-15T16:28:41.566321+00:00",
+    "status": "success"
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-daily-limit": "400",
+    "x-ratelimit-daily-remaining": "0",
+    "x-ratelimit-daily-reset": "1792108800",
+    "x-ratelimit-limit": "4000",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1793491200"
+  },
+  "status": 200,
+  "url": "https://api.registrum.co.uk/v1/company/00445790/financials"
+}

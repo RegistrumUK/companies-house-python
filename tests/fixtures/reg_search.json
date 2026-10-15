@@ -1,0 +1,60 @@
+{
+  "body": {
+    "cache_age_seconds": null,
+    "cached": false,
+    "credits_remaining": 0,
+    "credits_used": 1,
+    "data": {
+      "items": [
+        {
+          "company_name": "TESCO PLC",
+          "company_number": "00445790",
+          "company_status": "active",
+          "company_type": "plc",
+          "date_of_creation": "1947-11-27",
+          "registered_office_address": {
+            "address_line_1": "Kestrel Way",
+            "country": "United Kingdom",
+            "locality": "Welwyn Garden City",
+            "postal_code": "AL7 1GA",
+            "premises": "Tesco House, Shire Park"
+          },
+          "snippet": "TESCO STORES (HOLDINGS) PUBLIC LIMITED COMPANY"
+        },
+        {
+          "company_name": "KFORD TYRES (GORNAL) LTD",
+          "company_number": "09384423",
+          "company_status": "active",
+          "company_type": "ltd",
+          "date_of_creation": "2015-01-12",
+          "registered_office_address": {
+            "address_line_1": "Dawley Brook Road",
+            "country": "England",
+            "locality": "Kingswinford",
+            "postal_code": "DY6 7BD",
+            "premises": "2"
+          },
+          "snippet": "TESCO TYRES LTD"
+        }
+      ],
+      "items_per_page": 2,
+      "query": "tesco",
+      "start_index": 0,
+      "total_results": 356
+    },
+    "data_source": "live",
+    "fetched_at": null,
+    "status": "success"
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-daily-limit": "400",
+    "x-ratelimit-daily-remaining": "0",
+    "x-ratelimit-daily-reset": "1792108800",
+    "x-ratelimit-limit": "4000",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1793491200"
+  },
+  "status": 200,
+  "url": "https://api.registrum.co.uk/v1/search?q=tesco&items_per_page=2"
+}

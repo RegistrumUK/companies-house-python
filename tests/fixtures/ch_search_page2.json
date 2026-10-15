@@ -1,0 +1,73 @@
+{
+  "body": {
+    "items": [
+      {
+        "address": {
+          "address_line_1": "More London Place",
+          "locality": "London",
+          "postal_code": "SE1 2AF",
+          "premises": "1"
+        },
+        "address_snippet": "1 More London Place, London, SE1 2AF",
+        "company_number": "05888957",
+        "company_status": "dissolved",
+        "company_type": "ltd",
+        "date_of_cessation": "2025-11-12",
+        "date_of_creation": "2006-07-27",
+        "description": "05888957 - Dissolved on 12 November 2025",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "kind": "searchresults#company",
+        "links": {
+          "self": "/company/05888957"
+        },
+        "matches": {
+          "snippet": []
+        },
+        "snippet": "",
+        "title": "TESCO AQUA (FINCO2) LIMITED"
+      },
+      {
+        "address": {
+          "locality": "Cheshunt",
+          "postal_code": "EN8 9SL",
+          "premises": "New Tesco House",
+          "region": "Delamare Road"
+        },
+        "address_snippet": "New Tesco House, Cheshunt, Delamare Road, EN8 9SL",
+        "company_number": "BR008975",
+        "company_status": "closed",
+        "company_type": "uk-establishment",
+        "date_of_creation": "2006-08-09",
+        "description": "BR008975 - Closed",
+        "description_identifier": [
+          "closed"
+        ],
+        "kind": "searchresults#company",
+        "links": {
+          "self": "/company/BR008975"
+        },
+        "matches": {
+          "snippet": []
+        },
+        "snippet": "",
+        "title": "TESCO AQUA (1LP) LIMITED"
+      }
+    ],
+    "items_per_page": 2,
+    "kind": "search#companies",
+    "page_number": 2,
+    "start_index": 2,
+    "total_results": 356
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit": "1200",
+    "x-ratelimit-remain": "1197",
+    "x-ratelimit-reset": "1792082019",
+    "x-ratelimit-window": "5m"
+  },
+  "status": 200,
+  "url": "https://api.company-information.service.gov.uk/search/companies?q=tesco&items_per_page=2&start_index=2"
+}

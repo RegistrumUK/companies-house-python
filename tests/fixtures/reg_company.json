@@ -1,0 +1,56 @@
+{
+  "body": {
+    "cache_age_seconds": null,
+    "cached": false,
+    "credits_remaining": 0,
+    "credits_used": 1,
+    "data": {
+      "accounts": {
+        "last_accounts_made_up_to": "2026-02-28",
+        "last_accounts_type": "group",
+        "next_accounts_due": "2027-08-26",
+        "overdue": false
+      },
+      "company_age_years": 78,
+      "company_category": "large",
+      "company_name": "TESCO PLC",
+      "company_number": "00445790",
+      "company_status": "active",
+      "company_type": "plc",
+      "confirmation_statement": {
+        "last_made_up_to": "2026-06-18",
+        "next_due": "2027-07-02",
+        "overdue": false
+      },
+      "date_of_creation": "1947-11-27",
+      "has_charges": false,
+      "has_insolvency_history": false,
+      "profile_cache_schema_version": 1,
+      "registered_office_address": {
+        "address_line_1": "Tesco House, Shire Park",
+        "address_line_2": "Kestrel Way",
+        "country": "United Kingdom",
+        "locality": "Welwyn Garden City",
+        "postal_code": "AL7 1GA"
+      },
+      "sic_codes": [
+        "47110"
+      ],
+      "summary_md": "## TESCO PLC (00445790)\n\n**Status:** Active \u00b7 PLC \u00b7 Large\n**Incorporated:** 1947-11-27 (78 years ago)\n**Address:** Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom\n**SIC codes:** 47110\n**Accounts:** group to 2026-02-28. Next due 2027-08-26.\n**Confirmation statement:** Next due 2027-07-02.\n**Registered charges:** No | **Insolvency history:** No"
+    },
+    "data_source": "live",
+    "fetched_at": "2026-10-15T16:28:40.014476+00:00",
+    "status": "success"
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-daily-limit": "400",
+    "x-ratelimit-daily-remaining": "0",
+    "x-ratelimit-daily-reset": "1792108800",
+    "x-ratelimit-limit": "4000",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1793491200"
+  },
+  "status": 200,
+  "url": "https://api.registrum.co.uk/v1/company/00445790"
+}

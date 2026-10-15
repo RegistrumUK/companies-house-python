@@ -1,0 +1,73 @@
+{
+  "body": {
+    "filing_history_status": "filing-history-available",
+    "items": [
+      {
+        "action_date": "2026-02-28",
+        "barcode": "AF6FAFN7",
+        "category": "accounts",
+        "date": "2026-07-25",
+        "description": "accounts-with-accounts-type-group",
+        "description_values": {
+          "made_up_date": "2026-02-28"
+        },
+        "links": {
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-uIFIZvVQM2_WxuNYmjA10Fv96C0Yuxb-wNWhAqNezY",
+          "self": "/company/00445790/filing-history/MzUzNDMwNDQ5M2FkaXF6a2N4"
+        },
+        "pages": 236,
+        "paper_filed": true,
+        "transaction_id": "MzUzNDMwNDQ5M2FkaXF6a2N4",
+        "type": "AA"
+      },
+      {
+        "action_date": "2025-02-26",
+        "barcode": "AE6K3U7E",
+        "category": "accounts",
+        "date": "2025-07-15",
+        "description": "accounts-with-accounts-type-group",
+        "description_values": {
+          "made_up_date": "2025-02-26"
+        },
+        "links": {
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/gnhHdY1QS-LnojDWaLlg1pl1nSkI0KgAXbY2NKwEJTA",
+          "self": "/company/00445790/filing-history/MzQ3MzY5NzQ1OWFkaXF6a2N4"
+        },
+        "pages": 250,
+        "paper_filed": true,
+        "transaction_id": "MzQ3MzY5NzQ1OWFkaXF6a2N4",
+        "type": "AA"
+      },
+      {
+        "action_date": "2024-02-24",
+        "barcode": "AD5ZCI8A",
+        "category": "accounts",
+        "date": "2024-07-02",
+        "description": "accounts-with-accounts-type-group",
+        "description_values": {
+          "made_up_date": "2024-02-24"
+        },
+        "links": {
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/TWUAtC7p2PDZuqVBxafU4OoZeTkB6uOJrlwHxgMbUFQ",
+          "self": "/company/00445790/filing-history/MzQyNjcxOTc1NGFkaXF6a2N4"
+        },
+        "pages": 239,
+        "paper_filed": true,
+        "transaction_id": "MzQyNjcxOTc1NGFkaXF6a2N4",
+        "type": "AA"
+      }
+    ],
+    "items_per_page": 3,
+    "start_index": 0,
+    "total_count": 55
+  },
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit": "1200",
+    "x-ratelimit-remain": "1194",
+    "x-ratelimit-reset": "1792082019",
+    "x-ratelimit-window": "5m"
+  },
+  "status": 200,
+  "url": "https://api.company-information.service.gov.uk/company/00445790/filing-history?items_per_page=3&category=accounts"
+}
