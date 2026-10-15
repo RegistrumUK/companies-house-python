@@ -7,7 +7,7 @@ from typing import Any, Callable, Optional, Union
 import httpx
 
 from ._http import RateLimit, Transport
-from .errors import AUTH_HINT
+from .errors import AUTH_HINT, AuthError
 
 BASE_URL = "https://api.company-information.service.gov.uk"
 MAX_PAGE = 100
@@ -43,6 +43,8 @@ class CompaniesHouse:
     ):
         import time
 
+        if not api_key or not api_key.strip():
+            raise AuthError("No Companies House API key given. " + AUTH_HINT)
         self._t = Transport(
             BASE_URL, {}, auth=httpx.BasicAuth(api_key, ""), auth_hint=AUTH_HINT,
             max_retries=max_retries, low_watermark=low_watermark, max_wait=max_wait,

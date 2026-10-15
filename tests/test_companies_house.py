@@ -219,3 +219,10 @@ def test_rate_limit_state_is_exposed(clock):
     headers = load("ch_company")["headers"]
     assert c.rate_limit.remaining == int(headers["x-ratelimit-remain"])
     assert c.rate_limit.limit == int(headers["x-ratelimit-limit"])
+
+
+def test_empty_key_fails_locally_with_hint(clock):
+    s = Script(reply("ch_company"))
+    with pytest.raises(AuthError) as exc:
+        CompaniesHouse("", transport=s.transport)
+    assert "Basic" in str(exc.value) and s.requests == []
