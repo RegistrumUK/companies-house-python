@@ -42,6 +42,7 @@ packages = ["src/companies_house"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
 addopts = "-ra"
 
 [tool.ruff]
