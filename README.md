@@ -9,7 +9,7 @@ ch = CompaniesHouse("your-ch-api-key")      # pip install companies-house
 print(ch.company("445790")["company_name"])  # TESCO PLC
 ```
 
-Free to use with your own [Companies House API key](https://developer.company-information.service.gov.uk/). One dependency (`httpx`), Python 3.9+, typed, returns plain dicts.
+Free to use with your own Companies House API key, which is also free: [how to get one, step by step](https://registrum.co.uk/guides/how-to-get-a-companies-house-api-key), and [what to check if it returns 401](https://registrum.co.uk/guides/companies-house-api-key-not-working). One dependency (`httpx`), Python 3.9+, typed, returns plain dicts.
 
 ## What it covers
 
